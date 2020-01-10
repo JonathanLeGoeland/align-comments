@@ -348,7 +348,7 @@ adjusted.
       (other-window -1)))
 
 ;;; ------------------------------------------------------------------
-;;; Roead map
+;;; Roead map (All done for the moment).
 ;;; Some interesting things to do:
 
 ;;; Align comment :
@@ -359,8 +359,8 @@ adjusted.
 ;;; Comment line separator:
 
 ;;; All:
-;; - Make a nice minor mode for C and C++ : See how to do this in https://nullprogram.com/blog/2013/02/06/
 
+;; Make it a minor mode. See https://nullprogram.com/blog/2013/02/06/
 (define-minor-mode ac-mode
   "Align comments mode."
   :lighter " ac"
