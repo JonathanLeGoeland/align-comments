@@ -2,7 +2,14 @@
 ;; This is a minor mode that helps to keep comment tidy.
 ;; It is targeted at C and C++ programming.
 ;; To enable the mode : M-x ac-mode
-;; To automatically enable the mode : (add-hook 'c-mode-hook 'ac-mode)
+;; To automatically enable the mode :
+;; Add the folder where you downloaded align-comments.el to the load-path:
+;; (add-to-list 'load-path "<folder>")
+;; Load the module :
+;; (load "align-comments")
+;; Add ac-mode to the hook for C/C++ mode to
+;; (add-hook 'c-mode-common-hook 'ac-mode)
+;;
 ;;
 ;; Example 1:
 ;; // Write your comment
